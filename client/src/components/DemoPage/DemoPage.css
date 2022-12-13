@@ -1,0 +1,141 @@
+
+.parent_div {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2em;
+}
+
+.demo_form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  margin-right: 2em;
+  width: 35em;
+}
+
+.demo_form > label {
+  color: #F9F6EE;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.demo_form > input {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  background-color: #5b5264;
+  padding-top: 0.5em;
+  padding-bottom: 0.75em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: none;
+  color: #F9F6EE;
+  border-radius: 1em;
+}
+
+.demo_form > input:focus {
+  font-size: 1em;
+  background-color: #7f708f;
+  border: none;
+}
+
+.left_div {
+  width: 60%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right_div {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tokium_logo {
+  width: 12em;
+  height: auto;
+}
+
+.hidden_text {
+  color: #F9F6EE;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 90%;
+  font-weight: 700;
+}
+.hidden_image {
+  width: 95%;
+  height: auto;
+}
+
+.submit_btn {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #F9F6EE;
+  border: none;
+  border-radius: 1em;
+}
+
+.submit_btn:active {
+  background:linear-gradient(135deg, #CB5EEE 0%, #4BE1EC 100%);
+  color: #F9F6EE;
+}
+
+.info_div {
+  width: auto;
+  height:min-content;
+  background:linear-gradient(135deg, #CB5EEE 0%, #4BE1EC 100%);
+  color: #F9F6EE;
+  flex-grow: 1;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: 1em;
+}
+
+.code {
+  background-color: #131414;
+  border-radius: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  overflow-y: scroll;
+  height: 20em;
+  color: #F9F6EE;
+}
+
+.response_img {
+  height: 10em;
+  width: auto;
+}
+
+.tokium_loading_spinner {
+  width: 2em;
+  height: 2em;
+  border-top: 0.5em dotted #ff5998;
+  border-bottom: 0.5em dotted #ff5998;
+  border-left: 0.5em dotted #ff5998;
+  border-right: 0.5em dotted #ff5998;
+  border-radius: 100%;
+  animation: tokium_spinner 2s linear infinite;
+}
+
+@keyframes tokium_spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+    border-top: 0.5em dotted #00e29e;
+    border-bottom: 0.5em dotted #00e29e;
+    border-left: 0.5em dotted #00e29e;
+    border-right: 0.5em dotted #00e29e;
+
+  }
+
+  100% {
+    transform: rotate(360deg);
+    border-top: 0.5em dotted #ff5998;
+    border-bottom: 0.5em dotted #ff5998;
+    border-left: 0.5em dotted #ff5998;
+    border-right: 0.5em dotted #ff5998;
+  }
+}

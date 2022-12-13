@@ -1,0 +1,14 @@
+.App {
+  max-width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #F9F6EE;
+}

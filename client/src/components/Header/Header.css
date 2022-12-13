@@ -1,0 +1,10 @@
+.header {
+  position: absolute;
+  padding: 8px 12px;
+  height: 70px;
+  max-width: 95vw;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  margin-top: 2vh;
+}

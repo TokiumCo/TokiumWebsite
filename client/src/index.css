@@ -1,0 +1,418 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+  --gold:#FFD700;
+  --darkgold: #968334;
+  --blue: #1890ff;
+  --blueWashed: #e4f1fd;
+  --darkgoldText: #5f5319;
+  --red: red;
+  --darkBlue: #011e3f;
+  --lightgray: #fafafa;
+  --lightgray2:#eeebeb;
+  --lightgray3: rgb(246, 246, 246);
+  --darkgray: #333333;
+  --yellowgray: #f8f7f2;
+  --darkgray: #40423a;
+  --darkBlue2:  #012957;
+  --green:  rgb(50, 190, 22);
+  --green2 : #00e29e;
+  --hotpink: #ff5998;
+  --darkRed: rgb(177, 5, 5);
+  --lightPink: #fffdfa;
+}
+.yellowThemeButton:hover, .yellowThemeButton:focus,
+.yellowThemeButton {
+  background-color: var(--gold) !important;
+  font-weight: 500 !important;
+  border: 0px !important;
+  color: black !important;
+  padding: 4px 8px 4px 8px !important;
+  box-shadow: 3px 3px 2px 0.5px rgba(0,0,0,0.2)!important;
+}
+
+.redThemeButton:hover, .redThemeButton:focus,
+.greenThemeButton:hover, .greenThemeButton:focus,
+.yellowThemeButton:hover, .yellowThemeButton:focus{
+  cursor: pointer !important;
+  box-shadow: 3px 3px 2px 0.5px rgba(0,0,0,0.3) !important;
+  
+}
+
+.greenThemeButton:hover, .greenThemeButton:focus,
+.greenThemeButton{
+  background-color: var(--green2) !important;
+  color: black !important;
+  font-weight: 500 !important;
+  border: 0px !important;
+  padding: 4px 8px 4px 8px !important;
+  box-shadow: 3px 3px 2px 0.5px rgba(0,0,0,0.2) !important;
+}
+
+.redThemeButton:focus, .redThemeButton:hover,
+.redThemeButton{
+  height: 24px;
+  font-size: small;
+  border-radius: 4px;
+  background-color: var(--darkRed) !important;
+  color: white !important;
+  font-weight: 500 !important;
+  border: 0px !important;
+  padding: 4px 8px 4px 8px !important;
+  box-shadow: 3px 3px 2px 0.5px rgba(0,0,0,0.2) !important;
+}
+
+
+.fullWidth{
+  width: 100% !important;
+}
+
+.maxWidth {
+  max-width: 1600px;
+}
+
+.borderRadius {
+  border-radius: 12px !important;
+}
+
+.ant-scrolling-effect{
+  overflow: visible !important;
+}
+
+.headerMargin{
+  margin-top: 90px;
+}
+
+.footerPadding{
+  padding-bottom: 60px !important;
+}
+
+.textItalic {
+  font-style: italic;
+}
+
+.textBigBig {
+  font-size: xx-large;
+}
+
+.textBig{
+    font-size: x-large;
+}
+
+.textMed{
+  font-size: medium;
+}
+
+.textHugeHuge{
+  font-size: 64px;
+}
+
+.textHuge{
+  font-size: 48px;
+}
+
+.text500{
+  font-weight: 500;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.sectionTitle {
+  font-size: x-large;
+}
+
+.blue{
+  color: var(--blue);
+}
+
+.whiteBackground {
+  background-color: white;
+}
+
+.blueBackground {
+  background-color: var(--blue);
+}
+
+.blackBackground {
+  background-color: black;
+}
+
+.transparentBackground {
+  background-color: transparent;
+}
+
+.hover:hover {
+  cursor: pointer !important;
+}
+
+.underlineHover:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.red{
+  color: var(--red);
+}
+
+.darkGold{
+  color: var(--darkgold);
+}
+
+.gray {
+  color: gray;
+}
+
+.black{
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.left50 {
+  left: 50px;
+}
+
+.padding-left12{
+  padding-left: 12px;
+}
+
+.padVerHeader {
+  padding-top: 90px;
+}
+
+.padVerLarge {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.padHorMed {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.padHorLarge {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.padHorHuge {
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.padding0{
+  padding: 0px !important;
+}
+
+.padding8{
+  padding: 8px;
+}
+
+.marVerSmall{
+  margin-top: 12px;
+}
+
+.marVerMed {
+  margin-top: 24px;
+}
+
+.marVerHuge {
+  margin-top: 64px;
+}
+
+.marVerSection {
+  margin-top: 120px;
+}
+
+.marHorSmall {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.marHorMed {
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+
+.margin4{
+  margin: 4px;
+}
+
+.margin4right{
+  margin-right: 4px;
+}
+
+.margin16{
+  margin: 16px;
+}
+
+.mobilePadding{
+  padding: 0px 8px 30px 8px;
+}
+
+.flex{
+  display: flex;
+}
+
+.flexCol {
+  flex-direction: column;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+
+.flexWrapReverse {
+  flex-wrap: wrap-reverse;
+}
+
+.justifyCenter{
+  justify-content: center;
+}
+
+.justifySpaced{
+  justify-content: space-between;
+}
+
+
+.justifyEnd{
+  justify-content: end;
+}
+
+.justifyEvenly {
+  justify-content: space-evenly;
+}
+
+.justifyItemMargin {
+  margin: 0px 12px;
+}
+
+.justify-end{
+  justify-content: end;
+}
+
+.alignCenter{
+  align-items: center;
+}
+
+.align-bottom{
+  align-items: baseline;
+}
+
+.hideOverflowY {
+  overflow-y: hidden;
+}
+
+.hideOverflowX {
+  overflow-x: hidden;
+}
+
+.hideOverflow{
+  overflow: hidden;
+}
+
+.paddingMobileOptions {
+  padding-bottom: 48px;
+}
+
+
+.width100{
+  width: 100%;
+}
+
+.height100{
+  height: 100%;
+}
+
+.heightHeader {
+  height: 90px;
+}
+
+.animation {
+  transition: all 1s ease-in-out;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.fixedTop {
+  top: 0
+}
+
+.fixedLeft {
+  left: 0;
+}
+
+.higherIndex {
+  z-index: 1;
+}
+
+
+.companyLogoGold{
+  background: -webkit-linear-gradient(100deg,#f7d85c,#F1D66C, #C7B057  , rgb(126, 107, 0));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.companyLogoDark{
+  background: -webkit-linear-gradient(black, #5F5838 ,#968334 );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#landingPageSignup{
+  margin: 128px 0px
+}
+
+
+.wordWrap {
+  word-break: break-all;
+}
+
+.buttonWidthStandard {
+  width: 250px;
+}
+

@@ -1,0 +1,21 @@
+{
+  "name": "tokiumdemo",
+  "version": "1.0.60",
+  "main": "index.js",
+  "homepage": ".",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Amritpal Chera",
+  "license": "MIT",
+  "dependencies": {
+    "@tokium.co/tokiumwrapper": "^0.3.7",
+    "dotenv": "^16.0.0",
+    "eslint": "7.11.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.14.0"
+  }
+}
