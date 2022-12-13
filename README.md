@@ -14,4 +14,4 @@ yarn install
 yarn start
 ```
 
-View the live website [here](app.tokium.co)
+## View the live website [here](https://app.tokium.co)
